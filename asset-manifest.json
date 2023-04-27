@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/exclusive-car-rental/static/css/main.1598722f.css",
+    "main.js": "/exclusive-car-rental/static/js/main.66f909db.js",
+    "static/media/bugati.png": "/exclusive-car-rental/static/media/bugati.b80f808140cc26bff8d9.png",
+    "static/media/jaguar.png": "/exclusive-car-rental/static/media/jaguar.36678befba190703590e.png",
+    "static/media/rollsroyce.png": "/exclusive-car-rental/static/media/rollsroyce.45c4951f718fda3874de.png",
+    "static/media/lamborgini.png": "/exclusive-car-rental/static/media/lamborgini.95bd789fa1f6753ab235.png",
+    "static/media/mclaren.png": "/exclusive-car-rental/static/media/mclaren.a4aabf73db25d89ded1f.png",
+    "static/media/masserati1.png": "/exclusive-car-rental/static/media/masserati1.6612bc28363ce1ce55d2.png",
+    "static/media/audi.png": "/exclusive-car-rental/static/media/audi.5963986a24e71e404e88.png",
+    "static/media/avatar2.png": "/exclusive-car-rental/static/media/avatar2.b5de463eca322da64e37.png",
+    "static/media/avatar3.png": "/exclusive-car-rental/static/media/avatar3.7e4f8bcaa7e07de225b4.png",
+    "static/media/aston.png": "/exclusive-car-rental/static/media/aston.12341d0224ff99d3c395.png",
+    "static/media/avatar1.png": "/exclusive-car-rental/static/media/avatar1.79e835bf2b4dbeb8c288.png",
+    "static/media/promo.png": "/exclusive-car-rental/static/media/promo.6e4bd89734d54845c659.png",
+    "static/media/avatar4.png": "/exclusive-car-rental/static/media/avatar4.ca6831089fdcc235b276.png",
+    "static/media/ferrari.png": "/exclusive-car-rental/static/media/ferrari.4ef398be6dfcbd27620a.png",
+    "static/media/background.png": "/exclusive-car-rental/static/media/background.f6101d7d1a9b4462249a.png",
+    "static/media/masserati.png": "/exclusive-car-rental/static/media/masserati.04d31b1b363085aceb76.png",
+    "static/media/speed.png": "/exclusive-car-rental/static/media/speed.d2f312a508dd11b645c9.png",
+    "static/media/coin.png": "/exclusive-car-rental/static/media/coin.4acf54667ad2f50b458e.png",
+    "static/media/piggy-bank.png": "/exclusive-car-rental/static/media/piggy-bank.f91cbd7c0dd6557f45a8.png",
+    "static/media/old-car.png": "/exclusive-car-rental/static/media/old-car.80174c528a825849c576.png",
+    "static/media/logo.png": "/exclusive-car-rental/static/media/logo.340c1b9123918636e3f6.png",
+    "static/media/diamond.png": "/exclusive-car-rental/static/media/diamond.311f733ef6c4e96f7be5.png",
+    "index.html": "/exclusive-car-rental/index.html",
+    "main.1598722f.css.map": "/exclusive-car-rental/static/css/main.1598722f.css.map",
+    "main.66f909db.js.map": "/exclusive-car-rental/static/js/main.66f909db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1598722f.css",
+    "static/js/main.66f909db.js"
+  ]
+}
