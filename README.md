@@ -1,4 +1,4 @@
-# Pizza Event
+# Exclusive Car Rental
 
 React application with SCSS styles.
 
