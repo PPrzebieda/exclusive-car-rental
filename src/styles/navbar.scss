@@ -1,0 +1,93 @@
+.navbar-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media only screen and (max-width: 1700px) {
+    width: 100%;
+  }
+  @media only screen and (max-width: 1360px) {
+  }
+  .links {
+    @media only screen and (max-width: 1360px) {
+      display: none;
+    }
+  }
+  img {
+    cursor: pointer;
+    @media only screen and (max-width: 600px) {
+      width: 300px;
+    }
+    @media only screen and (max-width: 450px) {
+      width: 250px;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+  .btn {
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(2, 2, 2, 2);
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  .register {
+    background-color: black;
+    color: white;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+    @media only screen and (max-width: 1360px) {
+      display: none;
+    }
+  }
+  .login {
+    background-color: white;
+    color: black;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+    @media only screen and (max-width: 1360px) {
+      display: none;
+    }
+  }
+  .mobile {
+    width: 30px;
+    display: none;
+    margin-right: 10px;
+    @media only screen and (max-width: 1360px) {
+      display: block;
+      margin-left: 50%;
+    }
+    @media only screen and (max-width: 935px) {
+      margin-left: 40%;
+    }
+    @media only screen and (max-width: 768px) {
+      margin-left: 30%;
+    }
+    @media only screen and (max-width: 666px) {
+      margin-left: 20%;
+    }
+    @media only screen and (max-width: 450px) {
+      margin-left: 10%;
+    }
+    img {
+      width: 30px;
+    }
+  }
+}

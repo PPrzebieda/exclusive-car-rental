@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className="navbar-container">
       <a href="home">
-        <img src={logo} />
+        <img src={logo} alt="site logo" />
       </a>
       <div className="links">
         <a href="home">HOME</a>
@@ -19,7 +19,7 @@ export default function Navbar() {
       <button className="btn login">Log in</button>
       <button className="btn register">Register</button>
       <div className="mobile">
-        <img src={hamburger} />
+        <img src={hamburger} alt="mobile menu" />
       </div>
       <div className="btns"></div>
     </div>

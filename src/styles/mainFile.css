@@ -1,0 +1,28 @@
+@import url(mainPage.css);
+@import url(navbar.css);
+@import url(bookRide.css);
+@import url(carChoose.css);
+html {
+  scroll-behavior: smooth;
+  background: rgb(148, 150, 128);
+  background: linear-gradient(90deg, rgb(148, 150, 128) 0%, rgb(132, 137, 139) 53%, rgb(58, 106, 154) 100%);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}/*# sourceMappingURL=mainFile.css.map */

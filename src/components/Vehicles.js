@@ -182,7 +182,7 @@ export default function Vehicles() {
             Rolls Royce Phantom
           </li>
         </ul>
-        <img src={name.img} alt="" />
+        <img src={name.img} alt="car image" />
         <table>
           <tr>
             <td colSpan={2}>Rental price from {name.price}$ /per day</td>

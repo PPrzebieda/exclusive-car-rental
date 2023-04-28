@@ -1,0 +1,110 @@
+.navbar-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 1700px) {
+  .navbar-container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .navbar-container .links {
+    display: none;
+  }
+}
+.navbar-container img {
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  .navbar-container img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .navbar-container img {
+    width: 250px;
+  }
+}
+.navbar-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.navbar-container a:hover, .navbar-container a:focus {
+  text-decoration: underline;
+}
+.navbar-container .btn {
+  width: 130px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  cursor: pointer;
+}
+.navbar-container .register {
+  background-color: black;
+  color: white;
+}
+.navbar-container .register:hover {
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 1360px) {
+  .navbar-container .register {
+    display: none;
+  }
+}
+.navbar-container .login {
+  background-color: white;
+  color: black;
+}
+.navbar-container .login:hover {
+  background-color: black;
+  color: white;
+}
+@media only screen and (max-width: 1360px) {
+  .navbar-container .login {
+    display: none;
+  }
+}
+.navbar-container .mobile {
+  width: 30px;
+  display: none;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 1360px) {
+  .navbar-container .mobile {
+    display: block;
+    margin-left: 50%;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .navbar-container .mobile {
+    margin-left: 40%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar-container .mobile {
+    margin-left: 30%;
+  }
+}
+@media only screen and (max-width: 666px) {
+  .navbar-container .mobile {
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .navbar-container .mobile {
+    margin-left: 10%;
+  }
+}
+.navbar-container .mobile img {
+  width: 30px;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,551 @@
+.main-page {
+  position: relative;
+  width: 80%;
+}
+@media only screen and (max-width: 1360px) {
+  .main-page {
+    width: 90%;
+  }
+}
+.main-page .background-main {
+  margin-top: 100px;
+  width: 1500px;
+}
+.main-page .main-car {
+  position: absolute;
+  top: 350px;
+  left: 750px;
+}
+.main-page .description {
+  width: 40%;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  color: white;
+}
+@media only screen and (max-width: 1360px) {
+  .main-page .description {
+    width: 90%;
+    left: 30px;
+  }
+}
+.main-page .description h1 {
+  font-size: 4em;
+}
+@media only screen and (max-width: 768px) {
+  .main-page .description h1 {
+    font-size: 3em;
+  }
+}
+.main-page .description span {
+  font-size: 2em;
+}
+@media only screen and (max-width: 768px) {
+  .main-page .description span {
+    font-size: 1.5em;
+  }
+}
+.main-page .description .btns {
+  margin-top: 40px;
+}
+.main-page .description .btns .btn {
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  cursor: pointer;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.main-page .description .btns .book-ride {
+  background-color: black;
+  color: white;
+}
+.main-page .description .btns .book-ride:hover {
+  background-color: white;
+  color: black;
+}
+.main-page .description .btns .learn-more {
+  background-color: white;
+  color: black;
+}
+.main-page .description .btns .learn-more:hover {
+  background-color: black;
+  color: white;
+}
+
+.trip-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+}
+.trip-info h2 {
+  font-size: 3.5em;
+  color: white;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  padding-bottom: 10px;
+}
+.trip-info .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px;
+}
+.trip-info .boxes .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.trip-info .boxes .box img {
+  width: 100px;
+}
+.trip-info .boxes .box h3 {
+  font-size: 2em;
+}
+.trip-info .boxes .box span {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130%;
+  margin-top: 60px;
+  margin-left: -15%;
+  text-align: center;
+}
+@media only screen and (max-width: 1360px) {
+  .promo {
+    margin-top: 60px;
+    margin-left: -5%;
+  }
+}
+.promo .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  margin-top: 60px;
+  padding: 20px;
+}
+.promo .title h2 {
+  font-size: 3.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+@media only screen and (max-width: 1360px) {
+  .promo .title h2 {
+    font-size: 3em;
+    margin-left: -300px;
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .promo .title h2 {
+    display: none;
+  }
+}
+.promo .title span {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 20px 60px 50px 50px;
+}
+@media only screen and (max-width: 1360px) {
+  .promo .title span {
+    font-size: 1.2em;
+    padding: 20px 250px 50px 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .promo .title span {
+    font-size: 1.2em;
+    padding: 20px 160px 50px 50px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .promo .title span {
+    font-size: 1.2em;
+    padding: 20px 120px 50px 50px;
+  }
+}
+.promo img {
+  width: 1300px;
+}
+.promo .offer-container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 1360px) {
+  .promo .offer-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: -15%;
+  }
+}
+.promo .offer-container .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1360px) {
+  .promo .offer-container .left {
+    width: 80%;
+  }
+}
+.promo .offer-container .left h1 {
+  font-size: 3.5em;
+  color: white;
+  margin-top: 0px;
+}
+.promo .offer-container .left h3 {
+  font-size: 2em;
+  color: white;
+  margin-bottom: 0px;
+}
+.promo .offer-container .left span {
+  font-size: 1.5em;
+  color: white;
+}
+.promo .offer-container .left button {
+  width: 400px;
+  height: 55px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.promo .offer-container .left button:hover {
+  background-color: white;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  .promo .offer-container .left button {
+    width: 80%;
+  }
+}
+.promo .offer-container .right .box {
+  display: flex;
+  width: 600px;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .promo .offer-container .right .box {
+    width: 92%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .promo .offer-container .right .box {
+    width: 90%;
+  }
+}
+.promo .offer-container .right .box img {
+  width: 100px;
+}
+.promo .offer-container .right .box .offer-description {
+  margin-left: 50px;
+}
+.promo .offer-container .right .box .offer-description h3 {
+  font-size: 2em;
+  margin-top: 0px;
+}
+.promo .offer-container .right .box .offer-description span {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.opinons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 75%;
+}
+.opinons-container .opinions-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  margin-top: 60px;
+  padding: 20px;
+}
+@media only screen and (max-width: 1360px) {
+  .opinons-container .opinions-title {
+    margin-left: -20%;
+  }
+}
+.opinons-container .opinions-title h2 {
+  font-size: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+}
+.opinons-container .opinions-title span {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.opinons-container .opinions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 130px;
+}
+@media only screen and (max-width: 1360px) {
+  .opinons-container .opinions {
+    margin-left: -20%;
+  }
+}
+.opinons-container .opinions .opinion {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.opinons-container .opinions .opinion span {
+  font-size: 1.5em;
+  text-align: center;
+}
+.opinons-container .opinions .opinion .clients {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.opinons-container .opinions .opinion .clients .client {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.opinons-container .opinions .opinion .clients .client span {
+  margin-left: 20px;
+}
+.opinons-container .opinions .opinion .clients .client img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 75%;
+}
+.faq-container .faq-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  margin-top: 60px;
+  padding: 20px;
+}
+@media only screen and (max-width: 1360px) {
+  .faq-container .faq-title {
+    margin-left: -20%;
+  }
+}
+.faq-container .faq-title h2 {
+  font-size: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+}
+.faq-container .faq-title span {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.faq-container .slider-container {
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  position: relative;
+  margin-top: 140px;
+}
+@media only screen and (max-width: 1360px) {
+  .faq-container .slider-container {
+    margin-left: -20%;
+  }
+}
+@media only screen and (max-width: 1110px) {
+  .faq-container .slider-container {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .faq-container .slider-container {
+    width: 100%;
+  }
+}
+.faq-container .slider-container img {
+  position: absolute;
+  top: -200px;
+  left: -600px;
+  width: 600px;
+}
+.faq-container .slider-container .slider-title {
+  margin: 0px, 0px, 0px, 0px;
+  font-size: 1.5em;
+  padding: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.faq-container .slider-container .slider-title:hover {
+  background-color: black;
+  color: white;
+}
+.faq-container .slider-container .slider-content {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 1360px) {
+  .footer-container {
+    justify-content: space-evenly;
+    margin-right: 15%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.footer-container .footer-box {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+  .footer-container .footer-box {
+    width: 40%;
+  }
+}
+.footer-container .footer-box h3 {
+  color: white;
+}
+@media only screen and (max-width: 1360px) {
+  .footer-container .footer-box h3 {
+    font-size: 1em;
+  }
+}
+.footer-container .footer-box p {
+  font-size: 1.3em;
+  width: 300px;
+}
+@media only screen and (max-width: 1360px) {
+  .footer-container .footer-box p {
+    font-size: 1em;
+    width: 200px;
+  }
+}
+.footer-container .footer-box input {
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 10px;
+  font-size: 1em;
+}
+.footer-container .footer-box .btn {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  border: 1px solid black;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.footer-container .footer-box .btn:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+@media only screen and (max-width: 1000px) {
+  .footer-container .footer-box .btn {
+    width: 221px;
+  }
+}
+.footer-container .links h3 {
+  cursor: pointer;
+}
+.footer-container .links h3:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=mainpage.css.map */

@@ -14,11 +14,8 @@ import avatar2 from "../images/avatar2.png";
 import avatar3 from "../images/avatar3.png";
 import avatar4 from "../images/avatar4.png";
 import audi from "../images/audi.png";
-import telephone from "../images/telephone.png";
-import quote from "../images/quote.png";
 import BookRide from "./BookRide";
 import Vehicles from "./Vehicles";
-import Footer from "./FooterM";
 import FooterM from "./FooterM";
 
 export default function Main() {
@@ -64,8 +61,12 @@ export default function Main() {
       <Navbar />
 
       <div className="main-page">
-        <img src={background} className="background-main" />
-        <img src={masserati1} className="main-car" />
+        <img
+          src={background}
+          className="background-main"
+          alt="background image"
+        />
+        <img src={masserati1} className="main-car" alt="masserati image" />
         <div className="description">
           <h1>Rent the luxury. Own the thrill.​</h1>
           <span>
@@ -81,12 +82,11 @@ export default function Main() {
           </div>
         </div>
         <BookRide />
-
         <div className="trip-info">
           <h2>Plan your trip now</h2>
           <div className="boxes">
             <div className="box">
-              <img src={carIco} />
+              <img src={carIco} alt="car icon" />
               <h3>Select your car</h3>
               <span>
                 We offers a big range of vehicles for all your driving needs. We
@@ -94,7 +94,7 @@ export default function Main() {
               </span>
             </div>
             <div className="box">
-              <img src={operatorIco} />
+              <img src={operatorIco} alt="operator icon" />
               <h3>Contact Operator</h3>
               <span>
                 Our knowledgeable and friendly operators are always ready to
@@ -102,7 +102,7 @@ export default function Main() {
               </span>
             </div>
             <div className="box">
-              <img src={driveIco} />
+              <img src={driveIco} alt="drive icon" />
               <h3>Let's Drive</h3>
               <span>
                 Whether you're hitting the open road, we've got you covered with
@@ -122,7 +122,7 @@ export default function Main() {
               delivery to anywhere in Europe in a short time.
             </span>
           </div>
-          <img src={promo} />
+          <img src={promo} alt="promotion" />
           <div className="offer-container">
             <div className="left">
               <h3>Why choose us?</h3>
@@ -140,7 +140,7 @@ export default function Main() {
             <div className="right">
               <div className="box">
                 <div className="image">
-                  <img src={diamond} />
+                  <img src={diamond} alt="diamond icon" />
                 </div>
                 <div className="offer-description">
                   <h3>Luxury Drive</h3>
@@ -152,7 +152,7 @@ export default function Main() {
               </div>
               <div className="box">
                 <div className="image">
-                  <img src={coin} />
+                  <img src={coin} alt="coin icon" />
                 </div>
                 <div className="offer-description">
                   <h3>All Inclusive Pricing</h3>
@@ -164,7 +164,7 @@ export default function Main() {
               </div>
               <div className="box">
                 <div className="image">
-                  <img src={piggy} />
+                  <img src={piggy} alt="piggy icon" />
                 </div>
                 <div className="offer-description">
                   <h3>No Hidden Charges</h3>
@@ -195,12 +195,11 @@ export default function Main() {
                 </span>
                 <div className="clients">
                   <div className="client">
-                    <img src={avatar1} />
+                    <img src={avatar1} alt="avatar" />
                     <span>John Wick</span>
                   </div>
                 </div>
               </div>
-
               <div className="opinion">
                 <span>
                   "Driving this car was an absolute pleasure. Not only did it
@@ -209,7 +208,7 @@ export default function Main() {
                 </span>
                 <div className="clients">
                   <div className="client">
-                    <img src={avatar2} />
+                    <img src={avatar2} alt="avatar" />
                     <span>Aragorn Dúnadan</span>
                   </div>
                 </div>
@@ -222,7 +221,7 @@ export default function Main() {
                 </span>
                 <div className="clients">
                   <div className="client">
-                    <img src={avatar3} />
+                    <img src={avatar3} alt="avatar" />
                     <span>Daenerys Targaryen</span>
                   </div>
                 </div>
@@ -235,14 +234,13 @@ export default function Main() {
                 </span>
                 <div className="clients">
                   <div className="client">
-                    <img src={avatar4} />
+                    <img src={avatar4} alt="avatar" />
                     <span>Rubeus Hagrid</span>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div className="faq-container">
             <div className="faq-title">
               <h2>FAQ's</h2>
@@ -308,7 +306,7 @@ export default function Main() {
                   risk of accidents and damages.`
                   : ""}
               </div>
-              <img src={audi} />
+              <img src={audi} alt="audi image" />
             </div>
           </div>
         </div>

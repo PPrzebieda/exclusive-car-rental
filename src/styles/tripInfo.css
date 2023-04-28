@@ -1,0 +1,111 @@
+.car-choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 100%;
+}
+.car-choose .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  margin-top: 60px;
+  padding: 10px;
+}
+.car-choose .title h2 {
+  font-size: 3.5em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: white;
+}
+.car-choose .title span {
+  font-size: 1.5em;
+  color: white;
+  margin-bottom: 10px;
+}
+.car-choose .car-selector {
+  display: flex;
+  margin-top: 100px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 768px) {
+  .car-choose .car-selector {
+    flex-direction: column;
+  }
+}
+.car-choose .car-selector ul {
+  width: 25%;
+  padding-left: 0px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 1150px) {
+  .car-choose .car-selector ul {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .car-choose .car-selector ul {
+    width: 100%;
+  }
+}
+.car-choose .car-selector ul li {
+  list-style: none;
+  font-size: 1.4em;
+  padding: 10px 10px 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+  cursor: pointer;
+}
+.car-choose .car-selector ul li:hover, .car-choose .car-selector ul li:focus {
+  background-color: black;
+  color: white;
+}
+.car-choose .car-selector img {
+  width: 40%;
+}
+@media only screen and (max-width: 768px) {
+  .car-choose .car-selector img {
+    width: 100%;
+  }
+}
+.car-choose .car-selector table {
+  width: 25%;
+}
+@media only screen and (max-width: 1150px) {
+  .car-choose .car-selector table {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .car-choose .car-selector table {
+    width: 100%;
+  }
+}
+.car-choose .car-selector table tr {
+  padding-left: 0px;
+  border-radius: 10px;
+}
+.car-choose .car-selector table tr td {
+  width: 50%;
+  list-style: none;
+  font-size: 1.4em;
+  padding: 10px 10px 10px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgb(2, 2, 2);
+}/*# sourceMappingURL=tripInfo.css.map */
