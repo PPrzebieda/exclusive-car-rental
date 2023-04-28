@@ -8,7 +8,7 @@ React application with SCSS styles.
 
 ## Live demo:
 
-You can check live demo at: [pprzebieda.github.io/exclusive-car-rental/](pprzebieda.github.io/exclusive-car-rental/)
+You can check live demo at: [https://pprzebieda.github.io/exclusive-car-rental/](https://pprzebieda.github.io/exclusive-car-rental/)
 
 ## Build with:
 
