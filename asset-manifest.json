@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/exclusive-car-rental/static/css/main.60be008c.css",
-    "main.js": "/exclusive-car-rental/static/js/main.21238522.js",
+    "main.js": "/exclusive-car-rental/static/js/main.19518f7b.js",
     "static/media/bugati.png": "/exclusive-car-rental/static/media/bugati.b80f808140cc26bff8d9.png",
     "static/media/jaguar.png": "/exclusive-car-rental/static/media/jaguar.36678befba190703590e.png",
     "static/media/rollsroyce.png": "/exclusive-car-rental/static/media/rollsroyce.45c4951f718fda3874de.png",
@@ -26,10 +26,10 @@
     "static/media/diamond.png": "/exclusive-car-rental/static/media/diamond.311f733ef6c4e96f7be5.png",
     "index.html": "/exclusive-car-rental/index.html",
     "main.60be008c.css.map": "/exclusive-car-rental/static/css/main.60be008c.css.map",
-    "main.21238522.js.map": "/exclusive-car-rental/static/js/main.21238522.js.map"
+    "main.19518f7b.js.map": "/exclusive-car-rental/static/js/main.19518f7b.js.map"
   },
   "entrypoints": [
     "static/css/main.60be008c.css",
-    "static/js/main.21238522.js"
+    "static/js/main.19518f7b.js"
   ]
 }
